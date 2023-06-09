@@ -1,2 +1,2 @@
-#!/bin/bashi
-rm
+#!/bin/bash
+rm *~
