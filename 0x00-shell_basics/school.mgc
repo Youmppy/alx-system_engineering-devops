@@ -1,2 +1,5 @@
-offset SCHOOL School data
-!:mime school
+#!/bin/bash
+0 string SCHOOL    School data file
+!:mime text/plain
+file -C -m school.magic school.mgc
+file -m school.mgc your_school_data_file
